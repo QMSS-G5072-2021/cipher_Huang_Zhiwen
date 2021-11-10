@@ -1,0 +1,41 @@
+:py:mod:`cipher_zh2387.cipher_zh2387`
+=====================================
+
+.. py:module:: cipher_zh2387.cipher_zh2387
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_zh2387.cipher_zh2387.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   The function allows encipher your message.
+   In short, each letter is replaced by a letter some fixed number of positions down the alphabet.
+
+   :param text:
+   :type text: a string of the word, sentence or paragraph to encipher
+   :param shift:
+   :type shift: an integer of fixed number of positions down the alphabet
+   :param encrypt:
+   :type encrypt: a boolean that identify whether to encrypt or decrypt
+
+   :returns:
+   :rtype: The next text that was ciphered according to the shift of input under the Caesar cipher
+
+   .. rubric:: Examples
+
+   >>> import cipher_zh2387
+   >>> cipher_zh2387.cipher("All about us", 3)
+   'Doo derxw xv'
+
+

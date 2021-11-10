@@ -1,0 +1,23 @@
+:py:mod:`cipher_zh2387`
+=======================
+
+.. py:module:: cipher_zh2387
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_zh2387/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+
